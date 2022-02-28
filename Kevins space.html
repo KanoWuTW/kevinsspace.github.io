@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kevin's Space</title>
+    <script src="https://kit.fontawesome.com/2e0b482b48.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="kevins space.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+TC:wght@500&family=Rowdies:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="kevins space.js"></script>
+
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+
+    </label>
+    <div class="sidebar">
+        <label for="check">
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+
+        <form action="" autocomplete="on" id="login">
+            <label for="acc" class="logintext">帳號:</label>
+            <input type="text" name="" id="acc" placeholder="Account" required>
+            <br>
+            <label for="pas" class="logintext">密碼:</label>
+            <input type="password" name="" id="pas" placeholder="Password" required>
+            <input type="submit" value="登入" id="loginbutton"><br>
+
+        </form>
+        <form action="register.html">
+            <p id="createbutton" class="logintext">
+                Haven't created an account?
+                <input type="submit" value="註冊" id="registbutton">
+            </p>
+
+        </form>
+
+
+
+        <ul id="links">
+            <li>
+                <a href="https://www.instagram.com/kanotagram/?hl=zh-tw">
+                    My Instagram
+                    <img src="Instagram-512.png" alt="" class="icon">
+                </a>
+
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100004704254629">
+                    My Facebook
+
+                    <img src="2021_Facebook_icon.svg.png" alt="" class="icon">
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="main">
+        <header>
+            <h1 class="title">Kevin's Space</h1>
+
+
+        </header>
+        <hr>
+        <main>
+
+            <section style="border-width: 5px; border-style: solid;" id="Directory" class="sec">
+                <ul id="directory">
+                    <li id="li1">
+                        <a href="#aboutme">About me</a>
+                    </li>
+
+                    <li>
+                        <a href="#video">Videos</a>
+                    </li>
+
+                    <li>
+                        <a href="#games">Games</a>
+                    </li>
+
+                    <li>
+                        <a href="#csgo">CSGO Competitions</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sec">
+                <br><br>
+                <h2 id="aboutme" class="title">
+                    About Me:<br>
+                </h2>
+                <div id="introduction">
+                    <p id="resume">
+                        吳嘉晨<br>
+                        高雄科技大學 應用英語系<br>
+                        生日:11/24 <br>
+                        <img src="肥宅.jpg" alt="">
+
+                    </p>
+                </div>
+                <br>
+                <hr>
+
+            </section>
+
+            <section class="sec">
+                <div id="boringstuff">
+                    <H2 class="title" id="video">Boring Stuff:</H2>
+                    <br><br>
+                    <iframe width="1180" height="664" class="video" src="https://www.youtube.com/embed/2Nn0R-G8x4g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9359599222603!2d120.26467991529142!3d22.6188664851589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e03f6c175f515%3A0x330051a5aba9d11d!2z5omT54uX6Iux5ZyL6aCY5LqL6aSo5paH5YyW5ZyS5Y2A5bGx5LiK5a6Y6YK4!5e0!3m2!1szh-TW!2stw!4v1645071773047!5m2!1szh-TW!2stw"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        class="video"></iframe>
+                    <br>
+                </div>
+            </section>
+            <hr>
+            <section class="sec">
+                <div id="indies">
+                    <h2 class="title" id="games">Indie Games:</h2>
+                    <br>
+                    <h3>
+                        石斑魚料理模擬器
+                    </h3>
+                    <img src="運算與程式設計專題.jpg" alt="">
+                    <a href="https://youtu.be/JQ4D1w2uJfM">demo</a>
+                    <br>
+                    <h3>
+                        Snake Duel
+                    </h3>
+                    <img src="snake.png" alt="" id="snakeduel">
+                    <a href="">Download Snake Duel</a>
+                    <br>
+                    <h3>
+                        In progress...
+                    </h3>
+                    <img src="sniping.png" alt="" id="unreleased">
+                    <br>
+                </div>
+
+
+            </section>
+            <hr>
+
+            <section class="sec">
+                <div id="CSGO">
+                    <h2 class="title" id="csgo">CS:GO Competitions</h2>
+                    ZOTAC CUP MASTERS - APAC Regional Qualifier (Taiwan) 8強<br>
+
+                    <iframe width="1180" height="664" class="video" src="https://www.youtube.com/embed/nUBqCDJjru8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe><br>
+
+                    <iframe width="1180" height="664" class="video" src="https://www.youtube.com/embed/OwZ2I7d64_E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe><br>
+                </div>
+            </section>
+            <hr>
+
+
+
+            <section class="sec">
+                <div id="calculator">
+                    <h2 class="title" id="Calculator"> Java script & DOM practice</h2>
+                    <div id="caltable">
+                        <table id="cals">
+                            <p id="bigscreen">
+                                <span id="screen" class="results">0</span>
+                                <span id="number2" class="results"></span>
+                            </p>
+
+                            <tr>
+                                <td id="result"></td>
+                            </tr>
+                            <tr>
+                                <td><button class="butt" id="one" onclick="clicker(1)">1</button> </td>
+                                <td><button class="butt" id="two" onclick="clicker(2)">2</button></td>
+                                <td><button class="butt" id="three" onclick="clicker(3)">3</button></td>
+                                <td><button class="butt" id="plus" onclick="clicker(545)">+</button></td>
+                            </tr>
+
+                            <tr>
+                                <td><button class="butt" id="four" onclick="clicker(4)">4</button></td>
+                                <td><button class="butt" id="five" onclick="clicker(5)">5</button></td>
+                                <td><button class="butt" id="six" onclick="clicker(6)">6</button></td>
+                                <td><button class="butt" id="minus" onclick="clicker(136)">-</button></td>
+                            </tr>
+
+                            <tr>
+                                <td><button class="butt" id="seven" onclick="clicker(7)">7</button></td>
+                                <td><button class="butt" id="eight" onclick="clicker(8)">8</button></td>
+                                <td><button class="butt" id="nine" onclick="clicker(9)">9</button></td>
+                                <td><button class="butt" id="times" onclick="clicker(212)">×</button></td>
+                            </tr>
+
+                            <tr>
+                                <td><button class="butt" id="zero" onclick="clicker(0)">0</button></td>
+                                <td><button class="butt" id="point" onclick="clicker(886)">.</button></td>
+                                <td><button class="butt" id="equal" onclick="clicker(7878)">=</button></td>
+                                <td><button class="butt" id="divide" onclick="clicker(12)">÷</button></td>
+                                <td><button class="butt" id="clear" onclick="clicker(777)">clear</button></td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+
+        </main>
+        <hr>
+        <footer id="contact">
+            <small>
+
+                Contact:
+                <a href="Mailto:C109133133@nkust.edu.tw">E-mail</a> &ensp;
+                Creater: 吳嘉晨
+
+            </small>
+        </footer>
+    </div>
+
+</body>
+
+
+</html>

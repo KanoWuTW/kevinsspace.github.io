@@ -1,0 +1,31 @@
+html
+{
+    font-family: 'Rowdies', cursive;
+}
+
+
+#but
+{
+    color: blue;
+}
+
+#but:hover
+{
+    color: darkred;
+    background-color: ;
+    
+}
+
+
+
+header a
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: teal;
+}
+
+input[class= "adj"]
+{
+    color: red;
+}

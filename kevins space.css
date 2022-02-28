@@ -1,0 +1,270 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 5em;
+    background-image: url(pawel-czerwinski-BP2RioglKXk-unsplash.jpg);
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+
+}
+
+
+
+
+section{
+    font-family: 'Bangers', cursive;
+    color: #E1E1E1;
+}
+
+#introduction{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#quote{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#createbutton{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    margin: 0;
+}
+
+.title{
+    letter-spacing:3px;
+    text-align: center;
+}
+
+
+#contact{
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#directory{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: cyan;
+}
+
+.logintext{
+    color: white;
+}
+
+#loginbutton{
+    color: rgb(6, 6, 78);
+    background-color: rgb(163, 253, 28);
+    font-size: 15px;
+}
+
+#registbutton{
+    color: rgb(6, 6, 78);
+    background-color: rgb(163, 253, 28);
+    font-size: 15px;
+}
+
+.video{
+    width: 944px;
+    height: 531px;
+}
+
+#CSGO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#boringstuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#indies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutme, #introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    background-color: gray;
+}
+
+.sidebar{
+    position: fixed;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background: rgb(6, 6, 78);
+    transition: all 0.5s ease;
+}
+
+.sidebar form{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(41, 138, 109, 0.562);
+    
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 70px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgba(41, 138, 109, 0.562);
+    text-decoration: none;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+ 
+}
+
+#links li:hover a{
+    padding-left: 80px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn, label#cancel{
+    position: absolute;
+    cursor: pointer;
+    background: rgba(6, 6, 78, 0.61);
+    border-radius: 3px;
+    padding: 4px 4px;
+}
+
+
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px, 12px;
+    transition: all .5s ease;
+    
+}   
+
+label #cancel{
+    z-index: 1111;
+    left: 195px;
+    top: 17px;
+    font-size: 30px;
+    color: white;
+    padding: 30px 4px 0px 260px;
+}
+
+#check:checked ~.sidebar{
+    left: 0;
+
+}
+
+#check:checked ~label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#resume{
+    text-align: left;
+    font-size: 30px;
+}
+
+#aboutme{
+    font-size: 50px;
+}
+
+#boringstuff, #indies, #CSGO{
+    font-size: 35px;
+}
+
+#snakeduel{
+    width: 40%;
+    height: 40%;
+}
+
+#unreleased{
+    width: 50%;
+    height: 50%;
+}
+
+#calculator{
+    text-align: center;
+}
+
+#cals{
+    width: 150x;
+    height: 150px;
+}
+.butt{
+    height: 100px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.results{
+    font-size: 50px;
+}
+
+#caltable{
+    outline:solid;
+}
+
+#bigscreen{
+    
+    outline: solid;
+    
+}
+
+#nosuchaservice{
+    text-align: center;
+    font-size: 100px;
+}
